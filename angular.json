@@ -118,5 +118,12 @@
       }
     }
   },
-  "defaultProject": "store-project"
+  "defaultProject": "store-project",
+  "schematics": {
+    "@schematics/angular": {
+      "component": {
+        "spec": false
+      }
+    }
+  }
 }
